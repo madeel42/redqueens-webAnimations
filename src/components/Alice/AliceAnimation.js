@@ -38,7 +38,7 @@ export const AliceAnimation = () => {
 
         animatescenery.animate(
             sceneryFrames, sceneryTimingBackground);
-    }, [sceneryFrames, sceneryTimingBackground])
+    })
 
 
     const handleSpeed = () => {
