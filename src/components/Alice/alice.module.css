@@ -1,0 +1,91 @@
+.sky {
+  background: #246e89
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/641/bg_sky.jpg") repeat-x
+    100% 100% / auto 100%;
+  top: 0;
+}
+.EARTH {
+  background: #eb125d
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/641/bg_earth.jpg")
+    repeat-x 0 0 / 100% auto;
+  bottom: 0;
+}
+.sky,
+.EARTH {
+  position: absolute;
+  left: 0;
+  height: 50vh;
+  width: 100%;
+}
+.EARTH div {
+  position: relative;
+  width: 695px;
+  height: 103%;
+  /* background: aliceblue; */
+  overflow: hidden;
+  left: 47%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
+.EARTH div img {
+  position: absolute;
+  top: 101%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+}
+
+.PalmSmall {
+  position: absolute;
+  top: -39%;
+  left: 33% !important;
+}
+.scenery {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.Pawn {
+  position: absolute;
+  top: -38%;
+  left: 18%;
+}
+.w_rook_small {
+  position: absolute;
+  left: 70%;
+  top: -15px;
+}
+.Palm2small {
+  position: absolute;
+  left: 130%;
+}
+.r_knight_small {
+  position: absolute;
+  left: 170%;
+}
+.r_pawn_small {
+  position: absolute;
+  left: 100%;
+}
+.Palmbush {
+  position: absolute;
+  left: 1%;
+  top: -126px;
+  z-index: 1 !important;
+}
+
+.bush_small {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  z-index: 1 !important;
+}
+.palm3_small {
+  z-index: 1 !important;
+}
+.w_rook_upright_small {
+  position: absolute;
+  z-index: 1;
+  left: 60%;
+}
